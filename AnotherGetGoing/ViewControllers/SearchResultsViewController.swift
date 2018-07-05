@@ -28,7 +28,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
         
     }
     
-    func sortData(index: Int) {
+    func Sort(index: Int) {
         switch index {
         case 0:
             places = places.sorted(by: {
@@ -49,7 +49,7 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
     @IBAction func sortSegmentAction(_ sender: UISegmentedControl) {
         print("Changed \(sortSegment.selectedSegmentIndex)")
         
-        sortData(index: sortSegment.selectedSegmentIndex)
+        Sort(index: sortSegment.selectedSegmentIndex)
         
         
         
