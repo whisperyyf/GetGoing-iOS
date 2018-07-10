@@ -26,6 +26,8 @@
 		5DDDD62A20D86B6600743A3C /* PlaceOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDD62920D86B6600743A3C /* PlaceOfInterest.swift */; };
 		5DDDD62C20D86E4100743A3C /* APIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDD62B20D86E4100743A3C /* APIParser.swift */; };
 		5DED841320D1BEB4003F5464 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED841220D1BEB4003F5464 /* SearchViewController.swift */; };
+		87F051F120F43EA5001A1763 /* FiltersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F051F020F43EA5001A1763 /* FiltersService.swift */; };
+		87F051F320F445E7001A1763 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F051F220F445E7001A1763 /* Extras.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		5DDDD62920D86B6600743A3C /* PlaceOfInterest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOfInterest.swift; sourceTree = "<group>"; };
 		5DDDD62B20D86E4100743A3C /* APIParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIParser.swift; sourceTree = "<group>"; };
 		5DED841220D1BEB4003F5464 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		87F051F020F43EA5001A1763 /* FiltersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiltersService.swift; sourceTree = "<group>"; };
+		87F051F220F445E7001A1763 /* Extras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extras.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,7 @@
 				5DB6007220CF33BA004DD7A3 /* Info.plist */,
 				5DDDD62120D8589900743A3C /* Constants.swift */,
 				5DDDD62920D86B6600743A3C /* PlaceOfInterest.swift */,
+				87F051F220F445E7001A1763 /* Extras.swift */,
 			);
 			path = AnotherGetGoing;
 			sourceTree = "<group>";
@@ -134,6 +139,7 @@
 				5DDDD62720D8638E00743A3C /* GooglePlacesAPI.swift */,
 				5DDDD62B20D86E4100743A3C /* APIParser.swift */,
 				5D0F8A1020E18A8100B0F81D /* LocationService.swift */,
+				87F051F020F43EA5001A1763 /* FiltersService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -218,8 +224,10 @@
 				12B4E54120ED44B200A60D56 /* CameraViewController.swift in Sources */,
 				5DB6006720CF33BA004DD7A3 /* AppDelegate.swift in Sources */,
 				5DDDD62220D8589900743A3C /* Constants.swift in Sources */,
+				87F051F320F445E7001A1763 /* Extras.swift in Sources */,
 				5D0F8A1120E18A8100B0F81D /* LocationService.swift in Sources */,
 				5DDDD62A20D86B6600743A3C /* PlaceOfInterest.swift in Sources */,
+				87F051F120F43EA5001A1763 /* FiltersService.swift in Sources */,
 				5DBDD31E20DAF3C2006CE91E /* POITableViewCell.swift in Sources */,
 				5DDDD62820D8638E00743A3C /* GooglePlacesAPI.swift in Sources */,
 				12B4E54220ED44B200A60D56 /* PhotoViewController.swift in Sources */,

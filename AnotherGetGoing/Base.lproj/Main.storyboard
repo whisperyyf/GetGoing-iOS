@@ -87,6 +87,7 @@
                     <navigationItem key="navigationItem" id="hcp-xc-x35"/>
                     <connections>
                         <outlet property="activityIndicator" destination="QGg-an-7XK" id="o4Z-mp-1da"/>
+                        <outlet property="filterButton" destination="zyp-B7-kE0" id="IjM-2A-BLL"/>
                         <outlet property="searchParameterTextField" destination="uLj-6q-Mcv" id="I8s-aa-egM"/>
                         <outlet property="segmentedControl" destination="2o4-zt-xfz" id="Zg0-99-sUN"/>
                     </connections>
@@ -175,7 +176,11 @@
                                                 <action selector="cancelButtonAction:" destination="Y7i-9O-Eci" id="35P-Zs-c1t"/>
                                             </connections>
                                         </barButtonItem>
-                                        <barButtonItem key="rightBarButtonItem" title="Apply" id="byc-6S-xG1"/>
+                                        <barButtonItem key="rightBarButtonItem" title="Apply" id="byc-6S-xG1">
+                                            <connections>
+                                                <action selector="applyButtonAction:" destination="Y7i-9O-Eci" id="L4L-kb-WAf"/>
+                                            </connections>
+                                        </barButtonItem>
                                     </navigationItem>
                                 </items>
                             </navigationBar>
@@ -233,7 +238,9 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Pg8-pQ-sae"/>
                     <connections>
+                        <outlet property="applyButtonAction" destination="byc-6S-xG1" id="qWk-Nl-3g5"/>
                         <outlet property="openNowSwitch" destination="qE1-wd-eyg" id="6Hd-4c-bYT"/>
+                        <outlet property="radiusSlider" destination="IpH-YV-cxW" id="h4a-Xp-3Cq"/>
                         <outlet property="rankByLabel" destination="2ic-yH-xMh" id="019-fe-mqX"/>
                         <outlet property="rankByPicker" destination="x23-dk-jCT" id="eJO-tj-Mj7"/>
                     </connections>

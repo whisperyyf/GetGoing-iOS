@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552451601.555003"
+            timestampString = "552883934.3194931"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552451601.555492"
+            timestampString = "552883934.320465"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -42,12 +42,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552451601.555832"
+            timestampString = "552883934.320913"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
             endingLineNumber = "44"
             landmarkName = "Sort(index:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552883934.321352"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "retrieveFilterParameters(controller:filters:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

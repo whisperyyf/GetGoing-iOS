@@ -33,7 +33,8 @@ class DetailsViewController: UIViewController, MKMapViewDelegate {
         //if photoReference and maxWidth are not nil (required for a network request to get a photo), the procced
         if let photoReference = place.photoReference, let maxWidth = place.maxWidth {
             //perform network call with the parameters specified
-            GooglePlacesAPI.requestPhoto(photoreference: photoReference, maxWidth: maxWidth, completion: { (status, image) in
+            GooglePlacesAPI.placePhotoSearch(maxWidth: maxWidth, photoReference: photoReference) {
+                (status, image) in
                 //on the main thread
                 DispatchQueue.main.async {
                     if let img = image {
@@ -46,7 +47,7 @@ class DetailsViewController: UIViewController, MKMapViewDelegate {
                     //set image to imageView container
                     self.photoImageView.image = image
                 }
-            })
+            }
         }
     }
 
@@ -104,6 +105,20 @@ class DetailsViewController: UIViewController, MKMapViewDelegate {
             location?.mapItem(coordinate:coordinate).openInMaps(launchOptions: launchingOptions)
         }
     }
+    
+    func retrievePlacePhoto(placeObj: PlaceOfInterest) {
+        if let photoReference = place.photoReference, let maxWidth = place.maxWidth {
+            GooglePlacesAPI.placePhotoSearch(maxWidth: maxWidth, photoReference: photoReference) {
+                (status, image) in
+                DispatchQueue.main.async {
+                    if image != nil {
+                        self.photoImageView.image = image
+                    }
+                }
+            }
+        }
+    }
+
 
 
     /*

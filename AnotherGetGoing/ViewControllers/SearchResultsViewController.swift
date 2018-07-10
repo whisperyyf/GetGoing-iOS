@@ -88,12 +88,30 @@ class SearchResultsViewController: UIViewController, UITableViewDelegate, UITabl
 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        let detailsViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
-        detailsViewController.place = places[indexPath.row]
-        navigationController?.pushViewController(detailsViewController, animated: true)
+        let selectedPlace = places[indexPath.row]
+        if let placeId = selectedPlace.placeId {
+            GooglePlacesAPI.placeDetailsSearch(query: placeId, completionHandler: {(status, json) in
+                if let jsonObj = json {
+                    let place = APIParser.parseAPIResponseForPlaceDetails(json: jsonObj)
+                    print("found place \(place)")
+                    DispatchQueue.main.async {
+                        self.presentPlaceDetails(place)
+                    }
+                }
+                else {
+                    print("error parsing json!")
+                }
+            })
+        }
     }
     
-    
+    func presentPlaceDetails(_ results: PlaceOfInterest) {
+        let detailsViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailsViewController") as! DetailsViewController
+        
+        detailsViewController.place = results
+        
+        navigationController?.pushViewController(detailsViewController, animated: true)
+    }
 
     /*
     // MARK: - Navigation

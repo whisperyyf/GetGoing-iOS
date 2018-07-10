@@ -20,15 +20,30 @@ enum RankBy {
     }
 }
 
+struct FilterOptions {
+    var switchIsOn: Bool?
+    var radiusSelected: Float?
+    var rankOption: String?
+    var isChanged: Bool?
+}
+
 class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
  
 
     @IBOutlet weak var openNowSwitch: UISwitch!
+    var switchIsOpen: Bool?
     
     @IBOutlet weak var rankByPicker: UIPickerView!
     
     @IBOutlet weak var rankByLabel: UILabel!
+    var rankOptionSelected: String?
     
+    @IBOutlet weak var radiusSlider: UISlider!
+    var radiusSelected: Float?
+    
+    var filtersChanged: Bool? = false
+    var filtersObject: FilterOptions?
+    var delegate: FiltersServiceDelegate?
     var rankByDictionary: [RankBy] = [.prominence , .distance]
     var rankSelected: RankBy = .prominence
     
@@ -46,6 +61,12 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         gestureRecognizer.numberOfTapsRequired = 2
         rankByLabel.addGestureRecognizer(gestureRecognizer)
         
+        radiusSelected = radiusSlider.value
+        switchIsOpen = openNowSwitch.isOn
+        rankOptionSelected = rankByLabel.text
+        
+        filtersObject = FilterOptions(switchIsOn: switchIsOpen, radiusSelected: radiusSelected, rankOption: rankOptionSelected, isChanged: filtersChanged)
+        
         
     }
     
@@ -59,6 +80,18 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     @IBAction func cancelButtonAction(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func applyButtonAction(_ sender: UIBarButtonItem) {
+        if delegate != nil {
+            filtersChanged = true
+            filtersObject?.isChanged = filtersChanged
+            delegate?.retrieveFilterParameters(controller: self, filters: filtersObject)
+        } else {
+            print("NULL")
+        }
+    }
+    
+    
     
     @IBAction func openNowSelectionChange(_ sender: UISwitch) {
         print("switch is \(sender.isOn)")
