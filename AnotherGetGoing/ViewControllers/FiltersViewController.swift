@@ -35,24 +35,28 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     @IBOutlet weak var rankByPicker: UIPickerView!
     
+
+    
     @IBOutlet weak var rankByLabel: UILabel!
     var rankOptionSelected: String?
-    
+
     @IBOutlet weak var radiusSlider: UISlider!
     var radiusSelected: Float?
     
     var filtersChanged: Bool? = false
+    var rankByDictionary: [RankBy] = [.prominence, .distance]
+    var rankSelected: RankBy = .prominence
     var filtersObject: FilterOptions?
     var delegate: FiltersServiceDelegate?
-    var rankByDictionary: [RankBy] = [.prominence , .distance]
-    var rankSelected: RankBy = .prominence
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        // Do any additional setup after loading the view.
         rankByPicker.isHidden = true
         
         rankByLabel.text = rankSelected.description()
+        
         rankByPicker.dataSource = self
         rankByPicker.delegate = self
         
@@ -64,10 +68,9 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
         radiusSelected = radiusSlider.value
         switchIsOpen = openNowSwitch.isOn
         rankOptionSelected = rankByLabel.text
-        
-        filtersObject = FilterOptions(switchIsOn: switchIsOpen, radiusSelected: radiusSelected, rankOption: rankOptionSelected, isChanged: filtersChanged)
-        
-        
+
+       filtersObject = FilterOptions(switchIsOn: switchIsOpen, radiusSelected: radiusSelected, rankOption: rankOptionSelected, isChanged: filtersChanged)
+
     }
     
     @objc func togglePickerView(){
@@ -82,7 +85,7 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     }
     
     @IBAction func applyButtonAction(_ sender: UIBarButtonItem) {
-        if delegate != nil {
+         if delegate != nil {
             filtersChanged = true
             filtersObject?.isChanged = filtersChanged
             delegate?.retrieveFilterParameters(controller: self, filters: filtersObject)
@@ -95,10 +98,12 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     
     @IBAction func openNowSelectionChange(_ sender: UISwitch) {
         print("switch is \(sender.isOn)")
+        filtersObject?.switchIsOn = sender.isOn
     }
     
     @IBAction func radiusChanged(_ sender: UISlider) {
         print("radius is \(sender.value)")
+         filtersObject?.radiusSelected = sender.value
     }
     
     /*
@@ -127,6 +132,7 @@ class FiltersViewController: UIViewController, UIPickerViewDelegate, UIPickerVie
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         rankSelected = rankByDictionary[row]
         rankByLabel.text = rankSelected.description()
+        filtersObject?.rankOption = rankByLabel.text
     }
     
 

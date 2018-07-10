@@ -238,10 +238,10 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Item" id="Pg8-pQ-sae"/>
                     <connections>
-                        <outlet property="applyButtonAction" destination="byc-6S-xG1" id="qWk-Nl-3g5"/>
+                        <outlet property="RankByLabel" destination="2ic-yH-xMh" id="FPF-6o-JtD"/>
                         <outlet property="openNowSwitch" destination="qE1-wd-eyg" id="6Hd-4c-bYT"/>
                         <outlet property="radiusSlider" destination="IpH-YV-cxW" id="h4a-Xp-3Cq"/>
-                        <outlet property="rankByLabel" destination="2ic-yH-xMh" id="019-fe-mqX"/>
+                        <outlet property="rankByLabel" destination="2ic-yH-xMh" id="fBq-eD-mRH"/>
                         <outlet property="rankByPicker" destination="x23-dk-jCT" id="eJO-tj-Mj7"/>
                     </connections>
                 </viewController>

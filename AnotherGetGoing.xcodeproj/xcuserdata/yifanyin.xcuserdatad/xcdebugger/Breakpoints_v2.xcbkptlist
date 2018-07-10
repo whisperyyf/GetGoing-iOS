@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552883934.3194931"
+            timestampString = "552892950.799732"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552883934.320465"
+            timestampString = "552892950.800596"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552883934.320913"
+            timestampString = "552892950.8010989"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -54,16 +54,568 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552883934.321352"
+            timestampString = "552893071.249306"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "194"
             endingLineNumber = "194"
             landmarkName = "retrieveFilterParameters(controller:filters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552893071.250253"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "151"
+            endingLineNumber = "151"
+            landmarkName = "presentFilters(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.2509429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
+            landmarkName = "FiltersViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.switchIsOpen.getter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552889732.455442"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "95">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.switchIsOpen.setter : Swift.Optional&lt;Swift.Bool&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552889732.459018"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "107">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AnotherGetGoing.FiltersViewController"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552889732.462041"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "247">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AnotherGetGoing.FiltersViewController&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552889732.46688"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "34"
+                  endingLineNumber = "34"
+                  offsetFromSymbolStart = "186">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.251035"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "FiltersViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.delegate.getter : Swift.Optional&lt;AnotherGetGoing.FiltersServiceDelegate&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892950.904927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "81">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.delegate.setter : Swift.Optional&lt;AnotherGetGoing.FiltersServiceDelegate&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892950.912855"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "119">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AnotherGetGoing.FiltersViewController"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892950.9312741"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1839">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AnotherGetGoing.FiltersViewController&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892950.938176"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "1756">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.251112"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/Services/FiltersService.swift"
+            timestampString = "552891679.989992"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "FiltersServiceDelegate"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552893071.2512341"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "153"
+            endingLineNumber = "153"
+            landmarkName = "presentFilters(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.251848"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "applyButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.251914"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "applyButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552893071.2519701"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "196"
+            endingLineNumber = "196"
+            landmarkName = "retrieveFilterParameters(controller:filters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.2524149"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.252475"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "FiltersViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.rankSelected.getter : AnotherGetGoing.RankBy"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.021199"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.rankSelected.setter : AnotherGetGoing.RankBy"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.028411"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "109">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AnotherGetGoing.FiltersViewController"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.0322731"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1393">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AnotherGetGoing.FiltersViewController&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.03708"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "48"
+                  endingLineNumber = "48"
+                  offsetFromSymbolStart = "1310">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.25253"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "FiltersViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.filtersObject.getter : Swift.Optional&lt;AnotherGetGoing.FilterOptions&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.052348"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "176">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.filtersObject.setter : Swift.Optional&lt;AnotherGetGoing.FilterOptions&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.05742"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "226">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; AnotherGetGoing.FiltersViewController"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.062317"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1581">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.FiltersViewController.init(coder: __ObjC.NSCoder) -&gt; Swift.Optional&lt;AnotherGetGoing.FiltersViewController&gt;"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+                  timestampString = "552892951.066696"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1498">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.252584"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "133"
+            endingLineNumber = "133"
+            landmarkName = "pickerView(_:didSelectRow:inComponent:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/FiltersViewController.swift"
+            timestampString = "552893071.2526391"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "description()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552893071.2526931"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "searchButtonAction(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "AnotherGetGoing.SearchViewController.searchButtonAction(__ObjC.UIButton) -&gt; ()"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/SearchViewController.swift"
+                  timestampString = "552893071.325985"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1939">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AnotherGetGoing.SearchViewController.searchButtonAction(__ObjC.UIButton) -&gt; ()"
+                  moduleName = "AnotherGetGoing"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/SearchViewController.swift"
+                  timestampString = "552893071.356043"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552893071.253221"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "42"
+            endingLineNumber = "42"
+            landmarkName = "searchButtonAction(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
+            timestampString = "552893071.253835"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "searchButtonAction(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
