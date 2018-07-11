@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552892950.799732"
+            timestampString = "552972058.472028"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "31"
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552892950.800596"
+            timestampString = "552972058.472486"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "39"
@@ -42,7 +42,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchResultsViewController.swift"
-            timestampString = "552892950.8010989"
+            timestampString = "552972058.472726"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "44"
@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.249306"
+            timestampString = "552893789.255934"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "194"
@@ -74,7 +74,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.250253"
+            timestampString = "552893789.256938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "151"
@@ -262,7 +262,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/Services/FiltersService.swift"
-            timestampString = "552891679.989992"
+            timestampString = "552972058.473074"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "13"
@@ -278,7 +278,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.2512341"
+            timestampString = "552893789.2579401"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "153"
@@ -326,7 +326,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.2519701"
+            timestampString = "552893789.259463"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "196"
@@ -542,11 +542,11 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.2526931"
+            timestampString = "552893789.260796"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "41"
@@ -555,14 +555,14 @@
             landmarkType = "7">
             <Locations>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "AnotherGetGoing.SearchViewController.searchButtonAction(__ObjC.UIButton) -&gt; ()"
                   moduleName = "AnotherGetGoing"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/SearchViewController.swift"
-                  timestampString = "552893071.325985"
+                  timestampString = "552893803.107046"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "41"
@@ -570,14 +570,14 @@
                   offsetFromSymbolStart = "1939">
                </Location>
                <Location
-                  shouldBeEnabled = "Yes"
+                  shouldBeEnabled = "No"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
                   symbolName = "closure #1 (Swift.Int, Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;) -&gt; () in AnotherGetGoing.SearchViewController.searchButtonAction(__ObjC.UIButton) -&gt; ()"
                   moduleName = "AnotherGetGoing"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/yifanyin/Downloads/yyf_GetGoing/AnotherGetGoing/ViewControllers/SearchViewController.swift"
-                  timestampString = "552893071.356043"
+                  timestampString = "552893803.108795"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "42"
@@ -585,38 +585,6 @@
                   offsetFromSymbolStart = "39">
                </Location>
             </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.253221"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "searchButtonAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AnotherGetGoing/ViewControllers/SearchViewController.swift"
-            timestampString = "552893071.253835"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "searchButtonAction(_:)"
-            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

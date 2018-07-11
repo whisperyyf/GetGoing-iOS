@@ -57,6 +57,9 @@ class PlaceOfInterest: NSObject, NSCoding {
         self.name = name
         
         self.rating = json["rating"] as? Double
+        if self.rating == nil
+        {
+            self.rating = 0;}
         self.formattedAddress = json["formatted_address"] as? String
         
         let categories = json["types"] as? [String] ?? []

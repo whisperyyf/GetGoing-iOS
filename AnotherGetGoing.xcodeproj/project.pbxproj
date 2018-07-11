@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		12B4E54120ED44B200A60D56 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4E53F20ED44B200A60D56 /* CameraViewController.swift */; };
 		12B4E54220ED44B200A60D56 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4E54020ED44B200A60D56 /* PhotoViewController.swift */; };
 		12B4E54420ED455B00A60D56 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4E54320ED455A00A60D56 /* RatingControl.swift */; };
 		5D0F8A1120E18A8100B0F81D /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0F8A1020E18A8100B0F81D /* LocationService.swift */; };
@@ -26,6 +25,7 @@
 		5DDDD62A20D86B6600743A3C /* PlaceOfInterest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDD62920D86B6600743A3C /* PlaceOfInterest.swift */; };
 		5DDDD62C20D86E4100743A3C /* APIParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDDD62B20D86E4100743A3C /* APIParser.swift */; };
 		5DED841320D1BEB4003F5464 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DED841220D1BEB4003F5464 /* SearchViewController.swift */; };
+		875B3EFA20F52DF90058585D /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12B4E53F20ED44B200A60D56 /* CameraViewController.swift */; };
 		87F051F120F43EA5001A1763 /* FiltersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F051F020F43EA5001A1763 /* FiltersService.swift */; };
 		87F051F320F445E7001A1763 /* Extras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87F051F220F445E7001A1763 /* Extras.swift */; };
 /* End PBXBuildFile section */
@@ -220,8 +220,8 @@
 				5DED841320D1BEB4003F5464 /* SearchViewController.swift in Sources */,
 				5DDDD62C20D86E4100743A3C /* APIParser.swift in Sources */,
 				5DDDD62020D8568000743A3C /* SearchResultsViewController.swift in Sources */,
+				875B3EFA20F52DF90058585D /* CameraViewController.swift in Sources */,
 				5DDDD62620D85A1700743A3C /* NetworkingLayer.swift in Sources */,
-				12B4E54120ED44B200A60D56 /* CameraViewController.swift in Sources */,
 				5DB6006720CF33BA004DD7A3 /* AppDelegate.swift in Sources */,
 				5DDDD62220D8589900743A3C /* Constants.swift in Sources */,
 				87F051F320F445E7001A1763 /* Extras.swift in Sources */,
